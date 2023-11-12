@@ -1,6 +1,6 @@
 import * as path from "path"
  
-export const onCreateWebpackConfig = ({ actions }) => {
+export const onCreateWebpackConfig: (a: any) => any = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
