@@ -1,8 +1,10 @@
 import * as React from 'react'
 import type { HeadFC, PageProps } from "gatsby"
+import Navbar from '@/components/Navbar'
 
 const Index: React.FC<PageProps> = () => {
 
+	/*
 	const [message, setMessage] = React.useState("default")
 
   	const url = "https://lj4dsvnwho2gufukhy3s7qxduq0wqerx.lambda-url.us-west-1.on.aws/";
@@ -20,12 +22,13 @@ const Index: React.FC<PageProps> = () => {
 			console.log(data);
 			setMessage(data);
 	})
+	*/
 
   return (
-	<main className="grid place-items-center h-screen">
-	  Gatsby is cool!
-	  Also Hi Thomas!
-	  {message}
+	<main>
+	  <Navbar />
+	  <h1>Thomas Abadines</h1>
+	  <h1>Software Developer</h1>
 	</main>
   )
 }

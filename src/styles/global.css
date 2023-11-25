@@ -74,3 +74,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+h1 {
+  font-family: "Space Grotesk";
+  color: "white";
+}
+
+@layer components {
+  .navbar-item {
+      @apply relative flex items-center justify-center
+      h-12 w-auto p-2 mt-2 mb-2 mx-2 shadow-lg
+      bg-gray-800 text-green-500
+      hover:bg-green-600 hover:text-white;
+  }
+}
