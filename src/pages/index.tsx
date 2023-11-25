@@ -22,10 +22,19 @@ const Index: React.FC<PageProps> = () => {
 	})
 
   return (
-	<main className="grid place-items-center h-screen">
-	  Gatsby is cool!
-	  Also Hi Thomas!
-	  {message}
+	<main>
+		<header>
+			<h1>Thomas Abadines</h1>
+			<p>Software Developer | AI Enthusiast</p>
+		</header>
+
+		<section>
+			<h2>About Me</h2>
+			<p>
+				Hello! I'm Thomas Abadines, a software developer and artificial intelligence enthusiast based in San Francisco.
+				In addition to coding, I enjoy exploring the realms of music production and experimenting with various coffees and teas.
+			</p>
+		</section>
 	</main>
   )
 }
