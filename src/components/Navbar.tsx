@@ -4,16 +4,16 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-      <ul className='h-16 w-screen m-0 flex flex-row bg-gray-900 text-white'>
+    <div className="h-auto w-screen p-6 bg-gray-900 text-white">
+      <ul className='m-0 flex space-x-6 flex-row'>
         <li className="navbar-item">
-          <Link to="/">HOME</Link>
+          <Link to="/services">Services</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/about">ABOUT US</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="navbar-item">
-            <Link to="/contact">CONTACT</Link>
+            <Link to="/contact">Contact</Link>
           </li>
       </ul>
     </div>

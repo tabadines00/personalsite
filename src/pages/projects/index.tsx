@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
 
-function About() {
+function Projects() {
   return (
-    <main className="bg-black">
+    <main>
       <Navbar />
-      <h1>About</h1>
+      <h1>Projects</h1>
 	  </main>
   )
 }
 
-export default About
+export default Projects

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import type { HeadFC, PageProps } from "gatsby"
 import Navbar from '@/components/Navbar'
+import HalfSplit from '@/components/HalfSplit'
 
 const Index: React.FC<PageProps> = () => {
 
@@ -26,9 +27,16 @@ const Index: React.FC<PageProps> = () => {
 
   return (
 	<main>
-	  <Navbar />
-	  <h1>Thomas Abadines</h1>
-	  <h1>Software Developer</h1>
+	  	<Navbar />
+	  	<h1>Thomas Abadines</h1>
+	  	<h1>Software Developer</h1>
+		<HalfSplit
+			left={
+				<h1>Cool title</h1>
+			}
+			right={
+				<p>Hello! I am a p tag and I am just passing through</p>
+			} />
 	</main>
   )
 }
