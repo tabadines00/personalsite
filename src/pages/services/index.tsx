@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
+import Headline from '@/components/Headline'
 
 function Services() {
   return (
     <main>
 	    <Navbar />
-	    <h1>Services</h1>
+      <Headline title="Services" />
 	</main>
   )
 }

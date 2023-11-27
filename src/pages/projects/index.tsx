@@ -2,15 +2,16 @@ import React from 'react'
 import Navbar from '@/components/Navbar'
 import List from '@/components/List'
 import Centered from '@/components/Centered'
+import Headline from '@/components/Headline'
 
 function Projects() {
   return (
     <main>
       <section>
         <Navbar />
-        <h1>Projects</h1>
+        <Headline title="Projects" />
         <Centered content= {
-          <List className="w-10/12" />
+          <List className="w-96" />
         } />
         
       </section>
