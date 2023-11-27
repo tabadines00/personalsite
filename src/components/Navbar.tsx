@@ -7,6 +7,9 @@ export default function Navbar() {
     <div className="h-auto w-screen p-6">
       <ul className='justify-center m-0 flex space-x-6 flex-row'>
         <li className="navbar-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="navbar-item">
           <Link to="/services">Services</Link>
         </li>
         <li className="navbar-item">

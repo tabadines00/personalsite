@@ -4,8 +4,11 @@ import Navbar from '@/components/Navbar'
 function Projects() {
   return (
     <main>
-      <Navbar />
-      <h1>Projects</h1>
+      <section>
+        <Navbar />
+        <h1>Projects</h1>
+        
+      </section>
 	  </main>
   )
 }

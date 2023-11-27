@@ -31,24 +31,54 @@ const Index: React.FC<PageProps> = () => {
 
   return (
 	<main>
-	  	<Navbar />
-		<Blob1 />
-		<Blob2 />
-		<div className='mx-44 my-32'>
-			<h1 className='text-8xl'>Thomas Abadines</h1>
-	  		<h1 className='text-6xl pt-4'>Software Developer and Artificial Intelligence Enthusiast</h1>
-		</div>
-	  	
-		<Centered content={
-			<p>I do Websites</p>
-		} />
-		<HalfSplit
-			left={
-				<h1>Cool title</h1>
-			}
-			right={
-				<p>Hello! I am a p tag and I am just passing through</p>
-		} />
+		<section className='h-[85svh] w-full'>
+			<Navbar />
+			<Blob1 />
+			<Blob2 />
+			<div className='flex flex-col items-center text-center mx-44 my-32'>
+				<h1 className='font-black text-8xl'>Thomas Abadines</h1>
+				<h1 className='text-6xl pt-4'>Software Developer and Artificial Intelligence Enthusiast</h1>
+			</div>
+		</section>
+		<section className='bg-gray-100 py-24'>
+			<Centered content={
+				<div className='my-14'>
+					<h1 className='text-3xl font-bold mx-auto text-center'>I do Websites</h1>
+					<p>Hello! I am a p tag and I am just passing through</p>
+					<p>I am able to use modern web development tools for</p>
+					<p>your business.</p>
+				</div>
+			} />
+		</section>
+		<section className='bg-white py-32'>
+			<HalfSplit className='item-center justify-center text-center'
+				left={
+					<div className='my-14'>
+						<h1 className='text-3xl font-bold'>Cool Title</h1>
+						<p>Hello! I am a p tag and I am just passing through</p>
+						<p>I am able to use modern web development tools for</p>
+						<p>your business.</p>
+					</div>
+				}
+				right={
+					<div className='my-14'>
+						<h1 className='text-3xl font-bold'>Cool Title</h1>
+						<p>Hello! I am a p tag and I am just passing through</p>
+						<p>I am able to use modern web development tools for</p>
+						<p>your business.</p>
+					</div>
+			} />
+		</section>
+		<section className='bg-gray-100 py-24'>
+			<Centered content={
+				<div className='my-14'>
+					<h1 className='text-3xl font-bold mx-auto text-center'>I can do more than just Websites</h1>
+					<p>Hello! I am a p tag and I am just passing through</p>
+					<p>I am able to use modern web development tools for</p>
+					<p>your business.</p>
+				</div>
+			} />
+		</section>
 	</main>
   )
 }

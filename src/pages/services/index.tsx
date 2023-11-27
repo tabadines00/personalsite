@@ -4,8 +4,8 @@ import Navbar from '@/components/Navbar'
 function Services() {
   return (
     <main>
-	  <Navbar />
-	  <h1>Services</h1>
+	    <Navbar />
+	    <h1>Services</h1>
 	</main>
   )
 }

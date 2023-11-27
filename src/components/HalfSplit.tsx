@@ -2,12 +2,12 @@ import React from 'react'
 
 function HalfSplit(props: any) {
   return (
-    <div className='container flex flex-row px-4 mx-auto mt-10
+    <div className='container px-4 mx-auto flex flex-row flex-grow items-center
                     space-y-0'>
-        <div className="space-y-12 w-1/2">
+        <div className="space-y-12 mx-auto w-auto">
             {props.left}
         </div>
-        <div className="space-y-12 w-1/2">
+        <div className="space-y-12 mx-auto w-auto">
             {props.right}
         </div>
     </div>
