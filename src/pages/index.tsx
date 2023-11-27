@@ -4,6 +4,9 @@ import Navbar from '@/components/Navbar'
 import HalfSplit from '@/components/HalfSplit'
 import Centered from '@/components/Centered'
 
+import Blob1 from '@/components/Blob1'
+import Blob2 from '@/components/Blob2'
+
 const Index: React.FC<PageProps> = () => {
 
 	/*
@@ -29,9 +32,11 @@ const Index: React.FC<PageProps> = () => {
   return (
 	<main>
 	  	<Navbar />
-		<div>
-			<h1 className='text-6xl'>Thomas Abadines</h1>
-	  		<h1 className='text-3xl'>Software Developer</h1>
+		<Blob1 />
+		<Blob2 />
+		<div className='mx-44 my-32'>
+			<h1 className='text-8xl'>Thomas Abadines</h1>
+	  		<h1 className='text-6xl pt-4'>Software Developer and Artificial Intelligence Enthusiast</h1>
 		</div>
 	  	
 		<Centered content={
